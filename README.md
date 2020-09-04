@@ -1,12 +1,19 @@
 ![Corda](https://www.corda.net/wp-content/uploads/2016/11/fg005_corda_b.png)
 
-# CorDapp Template
+# CorDapp Casino Corda
 
-Welcome to the CorDapp template. The CorDapp template is a stubbed-out CorDapp 
-which you can use to bootstrap your own CorDapp projects.
+Welcome to the Casino Corda CorDapp. This CorDapp project is built up from the stubbed-out CorDapp Kotlin template. 
 
-**This is the KOTLIN version of the CorDapp template. For the JAVA version click 
-[here](https://github.com/corda/cordapp-template-java/).**
+The initial aim of this app is to create a distributed ledger around a casino game wager between a player and the casino.
+
+The structure for the contracts will be generic, to allow for future collections of available casino game types, but the initial prototype will focus on the use of a roulette game type and contract fulfilment that aligns accordingly. 
+
+## La Roulette Game Contract Rules
+
+The Player chooses a number between 1 and 36, single inside bet type (additional bet types will be available in future versions, such as choosing even or odd numbers, etc.).
+ 
+
+
 
 ## Pre-Requisites
 
